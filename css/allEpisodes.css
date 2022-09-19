@@ -60,6 +60,11 @@ a {
 .episodeItem {
   background-color: #f5f5f5;
   color: black;
+  border-radius: 5px;
+}
+.episodeItem img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .episodeItem:hover {
   transition: var(--main-transition);
