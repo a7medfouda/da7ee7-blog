@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700;800&family=El+Messiri:wght@400;500;700&family=Gulzar&family=Open+Sans:ital,wght@0,400;1,400;1,500;1,600;1,700;1,800&family=Raleway:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap');
+html {
+  direction: rtl;
+}
+body {
+  background-color: #f0f4f8;
+}
+:root {
+  --hover-color: #ff4f4f;
+  --main-transition: 0.3s;
+  --main-underline-color: #a8a7a7;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Cairo', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+/* global rules */
+/* start navbar */
+.navbar {
+  background-color: #141414;
+}
+.navbar-brand {
+  font-family: 'El Messiri', sans-serif;
+  font-size: 28px;
+}
+.nav-item {
+  width: fit-content;
+}
+.nav-item a {
+  color: white;
+  font-family: 'Tajawal', sans-serif;
+}
+.navbar-nav .nav-link.active {
+  border-bottom: 1px solid var(--hover-color);
+}
+.navbar-nav .nav-link.active,
+.nav-link:hover {
+  color: var(--hover-color);
+}
+.nav-link:focus {
+  color: var(--hover-color);
+}
+.navbar-toggler-icon {
+  color: white;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+/* end navbar */
+/* --------------------------- */
+/* start main body */
+.whoWeAre {
+  direction: ltr;
+}
+.person img {
+  width: 80%;
+}
+.personInfo {
+  background-color: white;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -40px;
+  z-index: 3;
+}
+.personInfo h3 {
+  font-family: 'Raleway', sans-serif;
+}
+.personInfo p {
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+}
+.personInfo h3,
+.personInfo p {
+  color: hsl(204, 30%, 17%);
+}
+.personInfo .line {
+  width: 50px;
+  height: 1px;
+  background-color: hsl(204, 30%, 17%);
+  margin-bottom: 10px;
+}
+.personContacts a {
+  color: black;
+}
+.personContacts i {
+  margin-right: 10px;
+  color: #477392;
+  transition: var(--main-transition);
+}
+@media (max-width: 768px) {
+  .personInfo p {
+    font-size: 11px;
+  }
+  .personContacts i {
+    margin-right: 5px;
+  }
+}
+.personContacts .facebook:hover {
+  color: #1877f2;
+}
+.personContacts .twitter:hover {
+  color: #1da1f2;
+}
+.personContacts .github:hover {
+  color: #333;
+}
+.personContacts .linkedin:hover {
+  color: #0077b5;
+}
+.personContacts .youtube:hover {
+  color: #ff0000;
+}
+.personContacts .instagram:hover {
+  color: #e1306c;
+}
+/* end main body */
+/* start footer */
+.contact-icons {
+  background-color: rgba(20, 20, 20, 0.96);
+}
+.contact-icons a {
+  color: white;
+  transition: var(--main-transition);
+}
+.contact-icons span {
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.face:hover {
+  color: #1877f2;
+}
+.insta:hover {
+  color: #c13584;
+}
+.whats:hover {
+  color: #25d366;
+}
+.lin:hover {
+  color: #0077b5;
+}
+.twi:hover {
+  color: #1da1f2;
+}
+.main-about-us {
+  background-color: rgba(20, 20, 20, 0.94);
+}
+.main-about-us .item a {
+  color: white;
+}
+.main-about-us .item a:hover {
+  color: var(--hover-color);
+  transition: 0.3s;
+}
+.main-about-us .item div {
+  margin-bottom: 5px;
+}
+.copy {
+  background-color: rgba(20, 20, 20, 0.96);
+}
+/* end footer */
+/* scroll to top */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  z-index: 99;
+  border: none;
+  background-color: var(--hover-color);
+  color: white;
+  cursor: pointer;
+  border-radius: 100%;
+  font-size: 18px;
+}
+#myBtn:hover {
+  background-color: #555;
+}
+/* scroll to top */

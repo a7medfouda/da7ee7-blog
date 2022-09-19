@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Da7eeh Blog | تواصل معنا</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- font awesome library-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body>
+    <!-- start header -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container flex-row-reverse">
+        <a class="navbar-brand text-light" href="index.html">الدحيح</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars text-light"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-0 align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >الرئيسية</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="channels.html">القنوات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="whoWeAre.html">من نحن</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end header -->
+    <!-- start main body -->
+    <section class="pt-5 pb-5 contact">
+      <div class="container">
+        <!--Section: Contact v.2-->
+        <section class="mb-4">
+          <!--Section heading-->
+          <h2 class="h1-responsive font-weight-bold text-center my-4">
+            تواصل معنا
+          </h2>
+          <!--Section description-->
+          <p class="text-center w-responsive mx-auto mb-5">
+            إذا كان لديك أي تساؤلات، رجاءا لا تتردد وتواصل معنا مباشرة، وسوف
+            يتواصل معك فريق العمل خلال ساعات إن شاء الله.
+          </p>
+
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+              <form
+                id="contact-form"
+                name="contact-form"
+                action="mail.php"
+                method="POST"
+              >
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                        <label for="name" class="mb-2">الاسم</label>
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        class="form-control mb-2"
+                      />
+                      
+                    </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                        <label for="email" class="mb-2">البريد الإلكترونى</label>
+                      <input
+                        type="text"
+                        id="email"
+                        name="email"
+                        class="form-control mb-2"
+                      />
+                      
+                    </div>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="md-form mb-0">
+                        <label for="subject" class="mb-2">الموضوع</label>
+                      <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        class="form-control mb-2"
+                      />
+                      
+                    </div>
+                  </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <div class="col-md-12">
+                    <div class="md-form">
+                        <label for="message" class="mb-2">رسالتك</label>
+                      <textarea
+                        type="text"
+                        id="message"
+                        name="message"
+                        rows="2"
+                        class="form-control md-textarea mb-2"
+                      ></textarea>
+                      
+                    </div>
+                  </div>
+                </div>
+                <!--Grid row-->
+              </form>
+
+              <div class="text-center text-md-left">
+                <a
+                  class="btn btn-outline-danger"
+                  onclick="document.getElementById('contact-form').submit();"
+                  >إرسال</a
+                >
+              </div>
+              <div class="status"></div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-3 text-center">
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>القاهرة، مصر</p>
+                </li>
+
+                <li>
+                  <i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>201110605750+</p>
+                </li>
+
+                <li>
+                  <i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>a7madfouda3@gmail.com</p>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+        </section>
+        <!--Section: Contact v.2-->
+      </div>
+    </section>
+    <!-- end main body -->
+    <!-- start footer -->
+    <footer>
+      <!-- social media contacts -->
+      <ul
+        class="contact-icons list-unstyled pt-3 pb-3 pe-0 ps-0 m-0 d-flex justify-content-center"
+      >
+        <a href="#" class="face">
+          <span style="border: 1px solid silver; border-radius: 100%"
+            ><i
+              class="fa-brands fa-facebook-f fa-fw"
+              title="Facebook"
+            ></i></span
+        ></a>
+        <a href="#" class="twi"
+          ><span style="border: 1px solid silver; border-radius: 100%"
+            ><i class="fa-brands fa-twitter fa-fw" title="Twitter"></i></span
+        ></a>
+        <a href="#" class="lin">
+          <span style="border: 1px solid silver; border-radius: 100%"
+            ><i
+              class="fa-brands fa-linkedin-in fa-fw"
+              title="Linked-in"
+            ></i></span
+        ></a>
+        <a href="#" class="insta">
+          <span style="border: 1px solid silver; border-radius: 100%"
+            ><i
+              class="fa-brands fa-instagram fa-fw"
+              title="Instagram"
+            ></i></span
+        ></a>
+        <a href="#" class="whats">
+          <span style="border: 1px solid silver; border-radius: 100%"
+            ><i class="fa-brands fa-whatsapp fa-fw" title="Whatsapp"></i></span
+        ></a>
+      </ul>
+      <!-- social media contacts -->
+      <!-- about us -->
+      <div class="main-about-us pt-3 pb-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 text-center text-md-end">
+              <div class="item">
+                <div><a href="index.html">الرئيسية</a></div>
+                <div><a href="whoWeAre.html">من نحن</a></div>
+                <div><a href="#">الشروط والأحكام</a></div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 text-center text-md-end">
+              <div class="item">
+                <div><a href="#">اكتب معنا</a></div>
+                <div><a href="#">سياسة الخصوصية</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- about us -->
+      <!-- copy rights -->
+      <div
+        class="copy pt-2 pb-2 text-light d-flex justify-content-center align-content-center"
+      >
+        جميع الحقوق محفوظة &copy; 2022
+      </div>
+      <!-- copy rights -->
+    </footer>
+    <!-- end footer -->
+    <!-- scroll to top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i
+        class="fa-solid fa-arrow-up d-flex justify-content-center align-items-center"
+      ></i>
+    </button>
+    <!-- ------------------------------ -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome library-->
+    <!-- <script src="js/all.min.js"></script> -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&family=El+Messiri:wght@700&family=Gulzar&family=Harmattan:wght@700&family=Tajawal:wght@300;400;500;700&display=swap');
+/* global rules */
+html {
+  direction: rtl;
+}
+:root {
+  --hover-color: #ff4f4f;
+  --main-transition: 0.3s;
+  --main-underline-color: #a8a7a7;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Cairo', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+/* global rules */
+/* start navbar */
+.navbar {
+  background-color: #141414;
+}
+.navbar-brand {
+  font-family: 'El Messiri', sans-serif;
+  font-size: 28px;
+}
+.nav-item {
+  width: fit-content;
+}
+.nav-item a {
+  color: white;
+  font-family: 'Tajawal', sans-serif;
+}
+.navbar-nav .nav-link.active {
+  border-bottom: 1px solid var(--hover-color);
+}
+.navbar-nav .nav-link.active,
+.nav-link:hover {
+  color: var(--hover-color);
+}
+.nav-link:focus {
+  color: var(--hover-color);
+}
+.navbar-toggler-icon {
+  color: white;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+/* end navbar */
+/* start main body */
+body > section > div > section > div > div.col-md-3.text-center > ul {
+  padding-right: 0;
+}
+/* end main body */
+/* start footer */
+.contact-icons {
+  background-color: rgba(20, 20, 20, 0.96);
+}
+.contact-icons a {
+  color: white;
+  transition: var(--main-transition);
+}
+.contact-icons span {
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.face:hover {
+  color: #1877f2;
+}
+.insta:hover {
+  color: #c13584;
+}
+.whats:hover {
+  color: #25d366;
+}
+.lin:hover {
+  color: #0077b5;
+}
+.twi:hover {
+  color: #1da1f2;
+}
+.main-about-us {
+  background-color: rgba(20, 20, 20, 0.94);
+}
+.main-about-us .item a {
+  color: white;
+}
+.main-about-us .item a:hover {
+  color: var(--hover-color);
+  transition: 0.3s;
+}
+.main-about-us .item div {
+  margin-bottom: 5px;
+}
+.copy {
+  background-color: rgba(20, 20, 20, 0.96);
+}
+/* end footer */
+/* scroll to top */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  z-index: 99;
+  border: none;
+  background-color: var(--hover-color);
+  color: white;
+  cursor: pointer;
+  border-radius: 100%;
+  font-size: 18px;
+}
+#myBtn:hover {
+  background-color: #555;
+}
+/* scroll to top */
